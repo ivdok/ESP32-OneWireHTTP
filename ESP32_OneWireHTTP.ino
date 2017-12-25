@@ -27,7 +27,7 @@ void setup()
   WiFi.begin(ssid, password);
 
   while (WiFi.status() != WL_CONNECTED) {	/*
-    delay(1);					* This servers only as a inefficiently implemented benchmark for testing AP responsiveness, safe to ignore
+    delay(1);					* This serves only as a inefficiently implemented benchmark for testing AP responsiveness, safe to ignore
     _conntime++;				*/
   }						
 

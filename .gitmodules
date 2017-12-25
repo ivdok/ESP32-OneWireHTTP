@@ -1,0 +1,6 @@
+[submodule "esp32-webserver"]
+	path = esp32-webserver
+	url = git@github.com:nhatuan84/esp32-webserver.git
+[submodule "DallasTemperature"]
+	path = DallasTemperature
+	url = git@github.com:milesburton/Arduino-Temperature-Control-Library.git
